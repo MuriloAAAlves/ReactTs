@@ -1,0 +1,36 @@
+.ListContainer{
+    display: flex;
+    border: 3px solid #8d8d8d;
+    border-radius: 5vw;
+    width: 80%;
+    height: 140vw;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    align-content:center;
+    background-color: rgb(100, 94, 83);
+}
+.TodoList{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.ListInput{
+    border: none;
+    border-bottom: 1px solid rgb(155,155,155);
+    margin: 1vw;
+    background-color: rgb(100, 94, 83);
+    color: white;
+}
+.ListInput:focus{
+    transition: 500ms ease-in-out;
+    border-radius: 5vw;
+    outline: none;
+    outline-style:hidden;
+}
+.ListItem{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1vw;
+}
+
